@@ -1,0 +1,11 @@
+.profilePrivetItem{
+    display: none;
+}
+
+.userImage:hover .profilePrivetItem{
+    display: block;
+}
+
+li:hover{
+   color: rgba(103, 99, 99, 0.991);
+}

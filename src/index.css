@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+margin:0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.userName{
+    background-image: linear-gradient(to right , #1b9ced , #b816dc);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+/* navbar start */
+a.active{
+    background-image: linear-gradient(to right , #7513EA , #E855DE);
+    -webkit-background-clip: text;
+    color: transparent;
+    border-bottom: 2px solid #E855DE;
+}
+
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  img{
+    /* mix-blend-mode: multiply; */
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+    color: #000;
+    border-radius: 10px;
+  }
+  
+  .swiper-slide {
+    
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  

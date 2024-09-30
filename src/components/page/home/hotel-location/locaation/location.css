@@ -1,0 +1,13 @@
+.paper-c{
+    display: none;
+}
+.paper-p{
+    opacity: 0.5;
+}
+.paper-p:hover{
+ opacity: 1;
+}
+
+.paper-p:hover .paper-c{
+    display: block;
+}
